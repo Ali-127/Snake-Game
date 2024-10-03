@@ -11,8 +11,8 @@ class Game:
         self.snake_head = self.snake.body[0]
         self.food = Food()
         pygame.init()
-        self.score_font = pygame.font.SysFont("comicsansms", 35)
-        self.font_style = pygame.font.SysFont("bahnschrift", 25)
+        self.score_font = pygame.font.SysFont("comicsansms", 30)
+        self.font_style = pygame.font.SysFont("bahnschrift", 20)
         self.snake_speed = 15  # frame speed
         self.block_size = 10  # size of every block
         self.x_change = self.block_size
