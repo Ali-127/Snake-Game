@@ -1,6 +1,8 @@
 class Snake:
     def __init__(self):
         self.body = []
+        
+        # Reset snakes position
         self.reset()
 
     def move(self, direction):
